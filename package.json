@@ -4,20 +4,34 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "14.0.3",
     "@mui/x-data-grid": "6.18.2",
     "@mui/x-data-grid-generator": "6.18.2",
-    "axios": "1.6.2"
+    "axios": "1.6.2",
+    "next": "14.0.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "^6.1.1"
   },
   "description": "https://github.com/mui/material-ui/blob/v5.14.19/docs/data/material/components/app-bar/PrimarySearchAppBar.js",
   "devDependencies": {
     "react-scripts": "latest"
   },
-   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "start": "npm run dev"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
