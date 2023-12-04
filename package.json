@@ -15,7 +15,9 @@
   "devDependencies": {
     "react-scripts": "latest"
   },
-  "scripts": {
-    "build": "npm run build"
+   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
 }
